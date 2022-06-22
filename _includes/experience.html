@@ -1,0 +1,12 @@
+<h2>{{page.title }} - <a href="{{page.url_externe}}">Voir le site</a></h2>
+<img src="{{page.asset}}">
+<h3>Présentation du projet</h3>
+<p>{{page.presentation}}</p>
+<h3>Description</h3>
+{{page.content| markdownify}}
+<h3>Stack</h3>
+<p>
+  {% for stack in page.stack %}
+  <code class="language-plaintext highlighter-red">{{stack}}</code>
+  {% endfor%}
+</p>

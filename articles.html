@@ -1,0 +1,8 @@
+---
+layout: single
+title: "Articles"
+---
+{% for article in site.articles %}
+<h2>{{ article.title }}</h2>
+<p>{{ article.content | markdownify }}</p>
+{% endfor %}

@@ -1,0 +1,20 @@
+---
+layout: single
+title: "Expériences"
+---
+{% for experience in site.experiences %}
+  <h2>{{ experience.title }} - <a href="{{experience.url_externe}}">Voir le site</a></h2>
+  <img src="{{experience.asset}}">
+<h3>Présentation du projet</h3>
+<p>{{experience.presentation}}</p>
+<h3>Description</h3>
+{{experience.content| markdownify}}
+<h3>Stack</h3>
+<p>
+{% for stack in experience.stack %}
+<code class="language-plaintext highlighter-red">{{stack}}</code>
+{% endfor%}
+</p>
+
+
+{% endfor %}

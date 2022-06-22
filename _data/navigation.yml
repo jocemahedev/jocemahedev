@@ -1,3 +1,9 @@
 main:
-  - title: "External Link"
-    url: https://google.com
+  - title: "Home"
+    url: /
+  - title: "Articles"
+    url: /articles
+  - title: "Expériences"
+    url: /experiences
+  - title: "About"
+    url: /about
