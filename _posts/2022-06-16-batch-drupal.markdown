@@ -1,6 +1,8 @@
 ---
 layout: single
 title: "Formulaire import Batch"
+date:   2022-06-16 15:15:05 +0200
+categories: drupal
 tags: [batch,php,drupal,form API]
 ---
 L’objectif de se tuto et de lancer des opérations en Batch sur les lignes d’un fichier excel,csv.
@@ -166,3 +168,4 @@ Voilà cet exemple ne sert pas a grand chose mais explique le principe on peut i
 
 Le code se trouve ici =>
 [projet github](https://github.com/jocemahedev/drupal-batch)
+

@@ -2,9 +2,9 @@
 layout: experience
 title: Toyota
 url_externe: https://pubtoyota.fr/
-asset: "/assets/img/toyota.png"
+asset: "../assets/img/toyota.png"
 presentation: Site de gestion des médias pour l'équipe marketing de Toyota
-stack: [Search API, Solr, API Celum, Bootstrap, Migration API]
+tags: [Search API, Solr, API Celum, Bootstrap, Migration API]
 permalink: /experiences/toyota
 ---
 - Réalisation Fullstack (Backend et Frontend )

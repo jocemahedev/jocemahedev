@@ -6,7 +6,7 @@
 {{page.content| markdownify}}
 <h3>Stack</h3>
 <p>
-  {% for stack in page.stack %}
-  <code class="language-plaintext highlighter-red">{{stack}}</code>
+  {% for tag in page.tags %}
+  <code class="language-plaintext highlighter-red">{{tag}}</code>
   {% endfor%}
 </p>

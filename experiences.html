@@ -11,10 +11,8 @@ title: "Expériences"
 {{experience.content| markdownify}}
 <h3>Stack</h3>
 <p>
-{% for stack in experience.stack %}
-<code class="language-plaintext highlighter-red">{{stack}}</code>
+{% for tag in experience.tags %}
+<code class="language-plaintext highlighter-red">{{tag}}</code>
 {% endfor%}
 </p>
-
-
 {% endfor %}

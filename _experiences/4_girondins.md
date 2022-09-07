@@ -2,9 +2,9 @@
 layout: experience
 title: Girondins de Bordeaux
 url_externe: https://www.girondins.com
-asset: "/assets/img/girondins.png"
+asset: "../assets/img/girondins.png"
 presentation: Développement du Backend du site officiel des Girondins de Bordeaux
-stack: [API Rest, GraphQL, Conception Data Model, Drupal 8&9]
+tags: [API Rest, GraphQL, Conception Data Model, Drupal 8&9]
 permalink: /experiences/girondins
 ---
 - Création Data Model
