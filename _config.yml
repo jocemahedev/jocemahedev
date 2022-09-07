@@ -24,7 +24,7 @@ description: >- # this means to ignore newlines until "baseurl:"
  En ce moment j'approfondis mes connaissances Front avec du ReactJS et React Native.
 baseurl: "" # the subpath of your site, e.g. /blog
 # Build settings
-remote_theme: "mmistakes/minimal-mistakes"
+theme: minimal-mistakes-jekyll
 minimal_mistakes_skin: "air" # "default", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 search: true
 plugins:
