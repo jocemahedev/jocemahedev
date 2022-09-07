@@ -22,6 +22,8 @@ email: mahedev@proton.me
 description: >- # this means to ignore newlines until "baseurl:"
  Développeur Web avec une dizaine d'années d'expériences avec de fortes compétences en Drupal, PHP et API.
  En ce moment j'approfondis mes connaissances Front avec du ReactJS et React Native.
+github_username:  jocemahedev
+github: [metadata]
 baseurl: "" # the subpath of your site, e.g. /blog
 # Build settings
 theme: minimal-mistakes-jekyll
