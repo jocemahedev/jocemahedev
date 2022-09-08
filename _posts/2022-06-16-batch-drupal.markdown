@@ -5,7 +5,7 @@ date:   2022-06-16 15:15:05 +0200
 categories: drupal
 tags: [batch,php,drupal,form API]
 ---
-L’objectif de se tuto et de lancer des opérations en Batch sur les lignes d’un fichier excel,csv.
+L’objectif du tuto et de lancer des opérations en Batch sur les lignes d’un fichier excel,csv.
 
 - Formulaire du fichier d’upload
 
